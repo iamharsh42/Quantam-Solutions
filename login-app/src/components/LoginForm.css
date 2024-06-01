@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.login-screen {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to top, rgb(52, 213, 235), rgb(56, 123, 133));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container {
+  width: 400px;
+  background-color: rgb(53, 66, 110);
+  text-align: center;
+  border-radius: 12px;
+}
+
+.signin-text {
+  width: 160px;
+  height: 50px;
+  background: rgb(79, 219, 240);
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+  margin-top: -10px;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+
+.login-container img {
+  width: 100px;
+  margin-top: 2rem;
+}
+
+.input-row {
+  width: 70%;
+  height: 60px;
+  position: relative;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 12px;
+  margin: 20px auto;
+}
+
+.input-row img {
+  width: 20px;
+  position: absolute;
+  left: 10px;
+  top: -12px;
+}
+
+.input-row input {
+  width: 100%;
+  height: 100%;
+  padding-left: 40px;
+  background: transparent;
+  outline: none;
+  border: none;
+  font-size: 20px;
+}
+
+.login-btn {
+  width: 70%;
+  height: 40px;
+  margin: 25px auto;
+  background: rgb(52, 213, 235);
+  border-radius: 10px;
+  border: none;
+  box-shadow: 5px 5px 5px #000;
+  cursor: pointer;
+}
+
+.remember-me {
+  width: 70%;
+  color: rgb(52, 213, 235);
+  font-size: small;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.register {
+  font-size: small;
+  margin: 15px auto;
+  color: rgb(52, 213, 235);
+}
+
+.register a {
+  text-decoration: none;
+  color: #000;
+}
